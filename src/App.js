@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { CssBaseline } from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+// external imports as above
+
 import { Navbar, Products, Cart, Checkout } from './components';
 import { commerce } from './lib/commerce';
+// check  with commerce.js
 
 const App = () => {
   const [mobileOpen, setMobileOpen] = React.useState(false);
